@@ -25,3 +25,6 @@ DB_PATH = os.getenv("DB_PATH", "bot.db")
 CACHE_TTL_SECONDS = int(os.getenv("CACHE_TTL_SECONDS", "600"))  # 10 minutes
 CHECK_INTERVAL_MINUTES = int(os.getenv("CHECK_INTERVAL_MINUTES", "10"))
 NOTIFY_BEFORE_MINUTES = int(os.getenv("NOTIFY_BEFORE_MINUTES", "15"))
+
+
+
